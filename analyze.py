@@ -254,7 +254,7 @@ def main(log_failure: bool = False):
     )
 
     triples_df = pd.DataFrame(
-        triples, columns=["biomodels_id", "predicate", "object_curie", "object_label"]
+        triples, columns=["biomodels_luid", "predicate_uri", "object_curie", "object_label"]
     )
     triples_df.to_csv(HERE.joinpath("triples.tsv"), index=False, sep="\t")
 

@@ -12,6 +12,19 @@ in BioModels. Currently, it generates 3 files:
    combination with what target prefixes
 3. [`triples.tsv`](triples.tsv) - dump of all metadata statements as triples, normalized with the Bioregistry.
 
+**Editorial**: It's pretty obvious that while there may be subtle differences between the predicates in
+the http://biomodels.net/biology-qualifiers/ and http://biomodels.net/model-qualifiers/ namespaces, it appears
+that there is lots of duplicated information and not a standardized schema applied across BioModels.
+
+## Rebuild
+
+Dependencies and analysis are automated with `tox`. Run the following in the command line:
+
+```shell
+pip install tox
+tox
+```
+
 ## Acknowledgements
 
 The development of this repository is funded by the DARPA ASKEM program, grant number HR00112220036.

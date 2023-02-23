@@ -1,4 +1,4 @@
-biomodels_id	predicate	object_curie	object_label
+biomodels_luid	predicate_uri	object_curie	object_label
 BIOMD0000000001	http://biomodels.net/model-qualifiers/is	biomodels.db:MODEL6613849442	
 BIOMD0000000001	http://biomodels.net/model-qualifiers/is	biomodels.db:BIOMD0000000001	
 BIOMD0000000001	http://biomodels.net/model-qualifiers/isDescribedBy	pubmed:8983160	
