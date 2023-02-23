@@ -1,4 +1,4 @@
-# biomodels-metadata-analysis
+# BioModels Metadata Analysis [![DOI](https://zenodo.org/badge/605565691.svg)](https://zenodo.org/badge/latestdoi/605565691)
 
 [BioModels](https://www.ebi.ac.uk/biomodels/) is a [CC0 licensed](https://www.ebi.ac.uk/biomodels/termsofuse) repository
 of mathematical models of biological and biomedical systems. It contains manually curated, non-curated, and
