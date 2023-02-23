@@ -1,0 +1,26 @@
+tag	count	example_model	example_value
+{http://biomodels.net/model-qualifiers/}is	2635	BIOMD0000000001	biomodels.db:MODEL6613849442
+{http://purl.org/dc/terms/}modified	2096	BIOMD0000000001	
+{http://purl.org/dc/terms/}created	1655	BIOMD0000000001	
+{http://purl.org/dc/elements/1.1/}creator	1582	BIOMD0000000001	
+{http://biomodels.net/biology-qualifiers/}hasTaxon	1575	BIOMD0000000001	ncbitaxon:7787
+{http://biomodels.net/model-qualifiers/}isDescribedBy	1509	BIOMD0000000001	pubmed:8983160
+{http://biomodels.net/biology-qualifiers/}hasProperty	1356	BIOMD0000000017	mamo:0000046
+{http://biomodels.net/biology-qualifiers/}isVersionOf	1355	BIOMD0000000001	go:0007274
+{http://biomodels.net/biology-qualifiers/}occursIn	491	BIOMD0000000048	go:0007173
+{http://biomodels.net/model-qualifiers/}isDerivedFrom	430	BIOMD0000000004	biomodels.db:BIOMD0000000003
+{http://biomodels.net/biology-qualifiers/}isDescribedBy	277	BIOMD0000000075	pubmed:12771127
+{http://biomodels.net/biology-qualifiers/}is	265	BIOMD0000000006	kegg.pathway:sce04111
+{http://biomodels.net/biology-qualifiers/}hasPart	169	BIOMD0000000018	kegg.pathway:map00670
+{http://purl.org/dc/terms/}creator	105	BIOMD0000000075	
+{http://biomodels.net/biology-qualifiers/}isPartOf	102	BIOMD0000000017	kegg.pathway:map00620
+{http://biomodels.net/biology-qualifiers/}hasVersion	86	BIOMD0000000005	reactome:REACT_152
+{http://biomodels.net/biology-qualifiers/}isPropertyOf	76	BIOMD0000000671	efo:0000616
+{http://biomodels.net/model-qualifiers/}hasProperty	40	BIOMD0000000647	mamo:0000046
+{http://biomodels.net/biology-qualifiers/}isHomologTo	25	BIOMD0000000003	reactome:REACT_152
+{http://biomodels.net/model-qualifiers/}isInstanceOf	15	BIOMD0000000668	kegg.pathway:D02368
+{http://biomodels.net/model-qualifiers/}hasInstance	14	BIOMD0000000693	kegg.pathway:D00775
+{http://biomodels.net/biology-qualifiers/}encodes	13	BIOMD0000000338	go:0072378
+{http://biomodels.net/model-qualifiers/}isEncodedBy	5	BIOMD0000001026	biomodels.db:MODEL2103170002
+{http://biomodels.net/model-qualifiers/}unknownQualifier	2	BIOMD0000000661	mamo:0000046
+{http://biomodels.net/biology-qualifiers/}isEncodedBy	2	BIOMD0000000940	biomodels.db:MODEL2004230001
