@@ -1,0 +1,17 @@
+object_curie	object_label	count
+mamo:0000046	ordinary differential equation model	626
+mamo:0000009	constraint-based model	148
+mamo:0000028	population model	27
+mamo:0000040	metabolic network	10
+mamo:0000045	differential equation model	9
+mamo:0000203	physiologically based pharmacokinetic model	8
+mamo:0000025	Petri net	7
+mamo:0000003	mathematical model	6
+mamo:0000089	delayed differential equation model 	6
+mamo:0000047	stochastic differential equation model	5
+mamo:0000020	pharmacodynamic model	3
+mamo:0000053	boolean model	2
+mamo:0000008	steady-state model	1
+mamo:0000030	logical model	1
+mamo:0000048	partial differential equation model	1
+mamo:0000202	protein-protein interaction network	1

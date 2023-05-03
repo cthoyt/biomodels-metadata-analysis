@@ -125,6 +125,24 @@ def main(log_failure: bool = False):
         unit_scale=True,
         unit="model",
     )
+    # prepare model metadata
+    metadata_rows = []
+    for model_id, data in model_info:
+        model_format = data.get("format", {})
+        model_pub = data.get("publication", {})
+        metadata_rows.append((
+            model_id,
+            data["name"],
+            model_format.get("name", ""),
+            model_format.get("version", ""),
+            model_pub.get("title"),
+            model_pub.get("year"),
+        ))
+    metadata_df = pd.DataFrame(
+        metadata_rows,
+        columns=["biomodels_luid", "name", "format", "format_version", "publication_title", "publication_year"]
+    )
+    metadata_df.to_csv("metadata.tsv", sep='\t', index=False)
 
     skip = {
         "MODEL1311110001",  # annoyingly big
